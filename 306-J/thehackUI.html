@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="up.css">
+    <link rel="stylesheet" href="uikit.css">
+    <script src="uikit.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="Login.css" />
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-style: sans-serif;
+        }
+
+        body {
+            font-family: 'Open Sans',sans-serif;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-image:url(timg8.jpg)
+        }
+
+        #login {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -150px 0 0 -150px;
+            width: 300px;
+            height: 300px;
+        }
+
+            #login h1 {
+                color: #fff;
+                text-shadow: 0 0 10px;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+
+        h1 {
+            font-size: 2em;
+            margin: 0.67em 0;
+        }
+
+        input {
+            width: 278px;
+            height: 36px;
+            margin-bottom: 10px;
+            outline: none;
+            padding: 10px;
+            font-size: 13px;
+            color: #000000;
+            border-top: 2px solid #ffffff;
+            border-left: 2px solid #ffffff;
+            border-right: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+            border-radius: 4px;
+            background-color: #ffffff;
+        }
+
+        .but {
+            width: 278px;
+            min-height: 20px;
+            display: block;
+            background-color: #A13333;
+
+            color: #fff;
+            padding: 9px 14px;
+            font-size: 15px;
+            line-height: normal;
+            border-radius: 5px;
+            margin: 0;
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family:'Kristen ITC';">CoLaB</h1>
+    </header>
+    <div id="login">
+        <h1 style="color:#ffffff; font-size:50px;">Login</h1>
+        <form method="post">
+            <input type="text" required="required" placeholder="用户名" name="u"></input>
+            <input type="password" required="required" placeholder="密码" name="p"></input>
+            <a class="but" type="submit" href="click.html"><div style="text-align:center">登录</div></a>
+        </form>
+    </div>
+</body>
+</html> 
