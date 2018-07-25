@@ -1,0 +1,15 @@
+/* TODO: design a flexbox layout with sticky map */
+.main-container {
+  display: flex;
+}
+
+#map {
+  flex: 0 0 450px;
+  height: 100vh;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.cards {
+  flex-grow: 1;
+}

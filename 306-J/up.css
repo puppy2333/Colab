@@ -1,0 +1,38 @@
+﻿.navbar {
+    height: 70px;
+    width: 1520px;
+    background-color: #A13333;
+    box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    padding:5px;
+    color:#ffffff;
+    align-items: center;
+    position:page;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 1px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+header {
+    background-color: #A13333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    box-shadow: 0px -2px 10px rgba(0,0,0,7);
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
